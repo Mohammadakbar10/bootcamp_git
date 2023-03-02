@@ -1,0 +1,34 @@
+img {
+    width: 200px;
+    border-radius: 50px;
+    float: inline-start;
+    margin-right: 50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    height: 100px;
+    align-items:center;
+}
+
+.links{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0px,10px;
+}
+
+.actions{
+    display:flex;
+}
+.banner{
+    background-image:url(images/framework.png);
+    height: 500px;
+    background-size: cover;
+    background-position:center center;
+}
+
+.button{
+    color: blue;
+}
